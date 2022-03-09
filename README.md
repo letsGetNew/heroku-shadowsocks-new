@@ -3,7 +3,7 @@
 
 Click the button below to deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/Snawoot/shadowsocks-heroku/tree/main)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/letsGetNew/heroku-shadowsocks-new)
 
 ## 0. Attention
 
@@ -42,17 +42,17 @@ Server: test.herokuapp.com (change test to your app name)
 Port: 443
 Password: The password filled in during deployment
 Encry Method: chacha20-ietf-poly1305 (or other methods you fill in)
-Plugin: v2ray
+Plugin: v2ra
 Plugin Transport mode: websocket-tls
 Hostname: Same as Server
-Path: "/" + value of V2_Path in app Config Vars
+Path: "/" + value of V2
 ```
 
 Those without a client can also download from here (Android):
 
-[shadowsocks](https://github.com/shadowsocks/shadowsocks-android/releases/latest/download/shadowsocks--universal-5.1.9.apk)
+[shadowsock](https://github.com/shadowsocks/shadowsocks-android/releases/latest/download/shadowsocks--universal-5.1.9.apk)
 
-[v2ray-plugin](https://github.com/shadowsocks/v2ray-plugin-android/releases/latest/download/v2ray-arm64-v8a-1.3.1.apk)
+[v2ray-plugn](https://github.com/shadowsocks/v2ray-plugin-android/releases/latest/download/v2ray-arm64-v8a-1.3.1.apk)
 
 windows:
 
